@@ -1,0 +1,16 @@
+.board{
+    padding-top : 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+    align-items: center;
+}
+.row {
+    display: contents;
+    min-height: 10vh;
+}
+
